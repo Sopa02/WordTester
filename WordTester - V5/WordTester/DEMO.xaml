@@ -1,0 +1,137 @@
+﻿<Window x:Class="WordTester.DEMO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordTester"
+        mc:Ignorable="d"
+        Title="Különféle megjelenítési módok" Height="650" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Text="Példa ListBox -ra. XAML-ben nincs formázás a megjelenésre. Miután az ItemSource objektumlistát kap, automatikusan minden objektumra a ToString() metódust meghívva betölti a String reprezentást."
+                       TextWrapping="Wrap"/>
+
+        <ListBox Grid.Row="1" Name="lbLista" Background="Cornsilk" 
+                 HorizontalContentAlignment="Stretch"
+                 Margin="10 10 10 0"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="Példa formázott kinézetű ListBox-ra. 4 oszlopból és két sorból álló Grid-be helyezett tartalom adja az Items-eket"
+                       TextWrapping="Wrap"/>
+
+
+        <ListBox Grid.Row="3" Name="lbListaFormazott" Background="Cornsilk" 
+                 HorizontalContentAlignment="Stretch"
+                 Margin="10 10 10 0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Content="{Binding EnglishWord, Mode=OneWay}" 
+                               HorizontalAlignment="Center"
+                               Foreground="DarkRed" Grid.RowSpan="2" FontSize="15"/>
+                        <ProgressBar Grid.Column="1" Minimum="0" Maximum="100" MinHeight="10"
+                                     Value="{Binding EnglishSuccessPercentage, Mode=OneWay }"/>
+                        <Label Grid.Row="1" Grid.Column="1" 
+                               Content="{Binding EnglishSuccessPercentage}"
+                               HorizontalAlignment="Center"/>
+
+                        <Label Grid.Column="2" Content="{Binding HungarianWord, Mode=OneWay}" 
+                               HorizontalAlignment="Center"
+                               Foreground="DarkGreen" Grid.RowSpan="2" FontSize="15"/>
+                        <ProgressBar Grid.Column="3" Minimum="0" Maximum="100" MinHeight="10"
+                                     Value="{Binding HungarianSuccessPercentage, Mode=OneWay}"/>
+                        <Label Grid.Row="1" Grid.Column="4" 
+                               Content="{Binding HungarianSuccessPercentage}"
+                               HorizontalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+        <TextBlock Grid.Column="2" Text="Példa DataGrid-re. XAML-ben nincs beállítva a megjelenés. Miután az ItemSource objektumlistát kap, automatikusan az osztály minden public(látható) mezője bekerül egy oszlopként a táblázatba. A mezők neveire kattintva működik a rendezés!"
+                       TextWrapping="Wrap"/>
+        <DataGrid Grid.Column="2" Grid.Row="1" x:Name="dgLista"/>
+
+
+        <TextBlock Grid.Column="2" Grid.Row="2" Text="Példa formázott DataGrid-re. Az XAML-ben az AutoGenerateColumns=False beállítással kikapcsoljuk a fenti automatikus oszlophozzáadást. Helyette magunk alakítjuk ki az oszlopokat."
+                       TextWrapping="Wrap"/>
+
+        <DataGrid Grid.Column="2" Grid.Row="3" x:Name="dgListaFormazott" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Angol szó" Binding="{Binding EnglishWord}"/>
+
+                <DataGridTemplateColumn Header="Tudásszint HU -> UK">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Background="DarkSeaGreen">
+                                <Label Content="{Binding EnglishSuccessfulNum}"/>
+                                <Label Content="/"/>
+                                <Label Content="{Binding EnglishTestNum}"/>
+                                <Label Content="* 100 ="/>
+                                <Label Content="{Binding EnglishSuccessPercentage}" Foreground="Red"/>
+                                <Label Content="%"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Header="UK %" Binding="{Binding EnglishSuccessPercentage}"/>
+
+                <DataGridTextColumn Header="Magyar szó" Binding="{Binding HungarianWord}"/>
+
+                <DataGridTemplateColumn Header="Tudásszint UK -> HU">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Background="DarkSeaGreen">
+                                <Label Content="{Binding HungarianSuccessfulNum}"/>
+                                <Label Content="/"/>
+                                <Label Content="{Binding HungarianTestNum}"/>
+                                <Label Content="* 100 ="/>
+                                <Label Content="{Binding HungarianSuccessPercentage}" Foreground="Red"/>
+                                <Label Content="%"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Header="HU %" Binding="{Binding HungarianSuccessPercentage}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="4" Grid.Column="0">
+            <Button Name="btnAngol" 
+                Content="Rendezés (angol)" 
+                Margin="20 5" Padding="8"
+                Click="btnAngol_Click">
+            </Button>
+            <Button x:Name="btnMagyar"
+                Content="Rendezés (magyar)"  
+                Margin="20 5" Padding="8" Click="btnMagyar_Click">
+            </Button>
+        </StackPanel>
+    </Grid>
+
+</Window>

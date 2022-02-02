@@ -1,0 +1,84 @@
+C:\Users\hamul\source\repos\WordTester\WordTester\bin\Debug\WordTester.exe.config
+C:\Users\hamul\source\repos\WordTester\WordTester\bin\Debug\WordTester.exe
+C:\Users\hamul\source\repos\WordTester\WordTester\bin\Debug\WordTester.pdb
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\MainWindow.g.cs
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\App.g.cs
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester_MarkupCompile.cache
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester_MarkupCompile.lref
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\MainWindow.baml
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.g.resources
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.Properties.Resources.resources
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.csproj.GenerateResource.cache
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.csproj.CoreCompileInputs.cache
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.exe
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.pdb
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\TestWindow.g.cs
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\TestWindow.baml
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\ListOfWords.g.cs
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\ListOfWords.baml
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\DEMO.g.cs
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\DEMO.baml
+C:\Users\hamul\source\repos\WordTester\WordTester\obj\Debug\WordTester.csprojAssemblyReference.cache
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.exe.config
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.exe
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.pdb
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csprojAssemblyReference.cache
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\DEMO.g.cs
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\ListOfWords.g.cs
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\MainWindow.g.cs
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\TestWindow.g.cs
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\App.g.cs
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester_MarkupCompile.cache
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester_MarkupCompile.lref
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\DEMO.baml
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\ListOfWords.baml
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\MainWindow.baml
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\TestWindow.baml
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.g.resources
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.Properties.Resources.resources
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csproj.GenerateResource.cache
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csproj.CoreCompileInputs.cache
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.exe
+C:\GDriveOktatás\!Classroom - 12BC\Szófelkérdező\V5\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.pdb
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.exe.config
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.exe
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\bin\Debug\WordTester.pdb
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csprojAssemblyReference.cache
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\DEMO.g.cs
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\ListOfWords.g.cs
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\MainWindow.g.cs
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\TestWindow.g.cs
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\App.g.cs
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester_MarkupCompile.cache
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester_MarkupCompile.lref
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\DEMO.baml
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\ListOfWords.baml
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\MainWindow.baml
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\TestWindow.baml
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.g.resources
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.Properties.Resources.resources
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csproj.GenerateResource.cache
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.csproj.CoreCompileInputs.cache
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.exe
+D:\WEBFEJLESZTŐ\HGy\WordTester - V5 feladat\WordTester\obj\Debug\WordTester.pdb
+D:\HGy\WordTester - V5 feladat-kész\WordTester\bin\Debug\WordTester.exe.config
+D:\HGy\WordTester - V5 feladat-kész\WordTester\bin\Debug\WordTester.exe
+D:\HGy\WordTester - V5 feladat-kész\WordTester\bin\Debug\WordTester.pdb
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.csproj.AssemblyReference.cache
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\DEMO.g.cs
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\ListOfWords.g.cs
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\MainWindow.g.cs
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\TestWindow.g.cs
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\App.g.cs
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester_MarkupCompile.cache
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester_MarkupCompile.lref
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\DEMO.baml
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\ListOfWords.baml
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\MainWindow.baml
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\TestWindow.baml
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.g.resources
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.Properties.Resources.resources
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.csproj.GenerateResource.cache
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.csproj.CoreCompileInputs.cache
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.exe
+D:\HGy\WordTester - V5 feladat-kész\WordTester\obj\Debug\WordTester.pdb

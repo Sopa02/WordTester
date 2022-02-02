@@ -1,0 +1,117 @@
+﻿<Window x:Class="WordTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WordTester"
+        mc:Ignorable="d"
+        Topmost="False"
+        Title="MainWindow" Height="600" Width="900">
+    <Window.Resources>
+
+        <Style x:Key="BorderStyleSajat" TargetType="{x:Type Border}">
+            <Setter Property="Background" Value="Cornsilk"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="BorderBrush" Value="orange"/>
+            <Setter Property="Margin" Value="20 6"/>
+            <Setter Property="BorderThickness" Value="5"/>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Angol-Magyar szófelkérdező" 
+               HorizontalAlignment="Center" 
+               FontSize="23"/>
+
+        <Border Name="brdVezerlo" Grid.Row="1"
+                Style="{DynamicResource BorderStyleSajat}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Slider x:Name="sliTestWordsNum" 
+                        VerticalAlignment="Center"
+                        Grid.Column="1" Grid.Row="2" 
+                        ValueChanged="sliTestWordsNum_ValueChanged"/>
+                <Label Name="lblChoisedNum" 
+                       Grid.Column="2" Grid.Row="2"
+                       VerticalAlignment="Center" HorizontalAlignment="Left" 
+                       Content="3"/>
+
+                <CheckBox x:Name="chkIsCheckEveryWord" 
+                          Grid.Row="3" Grid.Column="1"
+                          Content="Hibás válasz esetén mutassa a megoldást?" 
+                          VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+
+        <Border Style="{DynamicResource BorderStyleSajat}"
+                Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnLoadTest"
+                        Margin="10 15"
+                        Content="Teszt betöltése" 
+                        Click="btnLoadTest_Click">
+                </Button>
+                <Button x:Name="btnListOfWords"
+                        Margin="10 15"
+                        Content="Szavak listája" 
+                        IsEnabled="False"
+                        Click="btnListOfWords_Click">
+                </Button>
+                <Button 
+                        x:Name="btnStartTest" 
+                        Margin="10 15"
+                        Content="Teszt indítása" 
+                    IsEnabled="False"
+                        Click="btnStartTest_Click" >
+                </Button>
+
+                <Button x:Name="btnDEMO"
+                        Margin="10 15"
+                        Content="ListBox és DataGrid demó" 
+                        IsEnabled="False"
+                        Click="btnDEMO_Click">
+                </Button>
+
+            </StackPanel>
+        </Border>
+
+        <Border Style="{DynamicResource BorderStyleSajat}"
+                Grid.Row="3" >
+            <WrapPanel>
+                <Label Content="Teszt neve:"/>
+                <Label Name="lblFileName"/>
+                <Label Content="Teszt szókészlete:"/>
+                <Label Name="lblWordsNum"/>
+                <Label Content="Tesztelt angol szavak száma:"/>
+                <Label Name="lblTestNumUK"/>
+                <Label Content="Tesztelt magyar szavak száma:"/>
+                <Label Name="lblTestNumHU"/>
+
+            </WrapPanel>
+        </Border>
+
+        <RadioButton x:Name="rbUKHU" Content="Angol-Magyar teszt" HorizontalAlignment="Left" Margin="64,83,0,0" VerticalAlignment="Top" Grid.Row="1" GroupName="TestType" Checked="rbUKHU_Checked" IsEnabled="False"/>
+        <RadioButton x:Name="rbHUUK" Content="Magyar-Angol teszt" HorizontalAlignment="Left" Margin="218,83,0,0" VerticalAlignment="Top" Grid.Row="1" GroupName="TestType" Checked="rbHUUK_Checked" IsEnabled="False"/>
+        <RadioButton x:Name="rbRandom" Content="Véletlenszerűen kiválasztott" HorizontalAlignment="Left" Margin="64,154,0,0" VerticalAlignment="Top" Grid.Row="1" GroupName="InfoType" Checked="rbRandom_Checked" IsEnabled="False" />
+        <RadioButton x:Name="rbLeastKnown" Content="Kevésbé tudott szavak" HorizontalAlignment="Left" Margin="64,194,0,0" VerticalAlignment="Top" Grid.Row="1" GroupName="InfoType" Checked="rbLestKnown_Checked" IsEnabled="False"/>
+        <RadioButton x:Name="rbLeastTested" Content="Kevésbé tesztelt szavak" HorizontalAlignment="Left" Margin="64,174,0,0" VerticalAlignment="Top" Grid.Row="1" GroupName="InfoType" Checked="rbLeastTested_Checked" IsEnabled="False"/>
+
+    </Grid>
+</Window>
